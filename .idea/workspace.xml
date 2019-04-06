@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ab71478-2843-4ee1-989e-a94bb58feab7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/containers/CreateTodo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/CreateTodo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Table.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +37,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="379" />
-          <entry key="js" value="425" />
+          <entry key="js" value="551" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="379" />
-          <entry key="JavaScript" value="425" />
+          <entry key="JavaScript" value="551" />
         </counts>
       </usages-collector>
     </session>
@@ -63,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="1241">
               <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -110,11 +109,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/CreateTodo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="51">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -162,8 +161,8 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/containers/CreateTodo.js" />
         <option value="$PROJECT_DIR$/src/containers/Table.js" />
+        <option value="$PROJECT_DIR$/src/containers/CreateTodo.js" />
       </list>
     </option>
   </component>
@@ -254,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554550253538</updated>
       <workItem from="1554550255180" duration="285000" />
-      <workItem from="1554553284312" duration="5118000" />
+      <workItem from="1554553284312" duration="5643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5403000" />
+    <option name="totallyTimeSpent" value="5928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -359,13 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/CreateTodo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -378,11 +370,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="1241">
           <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/CreateTodo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>

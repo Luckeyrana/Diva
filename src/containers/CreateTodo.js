@@ -30,10 +30,20 @@ class CreateTodo extends Component {
         }
 
     };
+    handleKeyPress= (e)=>{
+        if(e.key === 'Enter'){
+            if(this.state.todotext.length > 0){
+                this.props.addTodo(this.state.todotext);
+                this.setState({todotext: ''})
+            }else{
+                alert('Invalid input!')
+            }
+        }
+    };
     render() {
         return (
             <div className="">
-                <input onChange={this.onChangeTodoText} value={this.state.todotext} type="text" className="form-control"
+                <input onKeyPress={(e)=>this.handleKeyPress(e)} onChange={this.onChangeTodoText} value={this.state.todotext} type="text" className="form-control"
                        id="inputEmail3" placeholder="Add todo here" />
                 <button type="button" onClick={() => this.setState({todotext: ''})}
                         style={{marginTop: "25px", marginRight: "15px"}} className="btn btn-danger">Cancel
