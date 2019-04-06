@@ -23,7 +23,13 @@ class CreateTodo extends Component {
         }
 
     }
+    addToDo = ()=>{
+        if(this.state.todotext.length > 0){
+            this.props.addTodo(this.state.todotext);
+            this.setState({todotext: ''})
+        }
 
+    };
     render() {
         return (
             <div className="">
@@ -32,10 +38,7 @@ class CreateTodo extends Component {
                 <button type="button" onClick={() => this.setState({todotext: ''})}
                         style={{marginTop: "25px", marginRight: "15px"}} className="btn btn-danger">Cancel
                 </button>
-                <button type="button" onClick={() => {
-                    this.props.addTodo(this.state.todotext);
-                    this.setState({todotext: ''})
-                }} style={{marginTop: "25px"}} className="btn btn-success">Add Todo
+                <button type="button" onClick={(e) => this.addToDo(e)} style={{marginTop: "25px"}} className="btn btn-success">Add Todo
                 </button>
             </div>
         );

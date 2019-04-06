@@ -80,8 +80,8 @@ class Table extends Component {
             style={{ marginTop: "50px"}}
             className=""
           >
-            <div className="alert alert-danger" role="alert" style={{padding:"8px" }}>
-              Todo List is empty now, please add
+            <div className="alert text-center alert-danger" role="alert" style={{padding:"8px" }}>
+              No more data.
             </div>
           </div>
         )}{" "}
